@@ -2,7 +2,7 @@
 title: "Module_4"
 output: html_document
 ---
-## Challenges: I haven't been able to push to github, I have to go to git and upload files manually? I had this problem at the end of Sarah's class last semester, where I wasn't able to push. Maybe I have to make a new ID and start over from the beginning? I will see by the end of this module!!
+## Challenges: I haven't been able to push to github, I have to go to git and upload files manually? I had this problem at the end of Sarah's class last semester, where I wasn't able to push. Maybe I have to make a new ID and start over from the beginning? I will see by the end of this module!! One more time
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
