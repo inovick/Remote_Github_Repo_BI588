@@ -27,3 +27,29 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Module 4 starts here
+# Installing stringr, using random-people.csv file, installed vioplot to get stringr because it said it wasn't found
+
+```{r}
+install.packages("stringr")
+getwd()
+installed.packages()
+install.packages("vioplot")
+
+
+```
+
+## First problem of module 4 using matrices
+```{r}
+m <- matrix(data = c(1, 2, 3, 4), nrow = 2, ncol = 2)
+m
+m <- matrix(data = c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = FALSE)
+m
+m <- matrix(data = c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = TRUE)
+m
+v1 <- c(1, 2, 3, 4)
+v2 <- c(6, 7, 8, 9)
+m1 <- rbind(v1, v2)
+m1
+```
