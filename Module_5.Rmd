@@ -10,8 +10,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Challenges: 
 
 
-```{r cars}
-summary(cars)
+```{r}
+install.packages("readr")
+install.packages("curl")
+install.packages("readxl")
+install.packages("XLConnect")
+install.packages("rdrop2")
+install.packages("repmis")
+install.packages("googledrive")
+install.packages("googlesheets")
 ```
 
 ## Including Plots
